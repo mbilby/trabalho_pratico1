@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>RGB</h1>
+    <form>
+      <div>
+        <!-- GRUPO VERMELHO -->
+        <div class="grupoVermelho">
+          <div>
+            <label>(R) Vermelho</label>
+          </div>
+          <div>
+            <input
+              type="range"
+              name="escalaRed"
+              id="rangeRed"
+              value="0"
+              max="255"
+            />
+          </div>
+          <div>
+            <input type="text" name="" id="escalanumberRed" disabled />
+          </div>
+        </div>
+
+        <!-- GRUPO VERDE -->
+        <div class="grupoVerde">
+          <div>
+            <label>(G) Verde </label>
+          </div>
+          <div class="inputEscalaGreen">
+            <input
+              type="range"
+              name="escalaGreen"
+              id="rangeGreen"
+              value="0"
+              max="255"
+            />
+          </div>
+          <div>
+            <input type="text" name="" id="escalanumberGreen" disabled />
+          </div>
+        </div>
+        <!-- GRUPO AZUL -->
+        <div class="grupoAzul">
+          <div>
+            <label>(B) Azul </label>
+          </div>
+          <div class="inputEscalaBlue">
+            <input
+              type="range"
+              name="escalaBlue"
+              id="rangeBlue"
+              value="0"
+              max="255"
+            />
+          </div>
+          <div>
+            <input type="text" name="" id="escalanumberBlue" disabled />
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="recebeCor">
+      <div id="saidaCor"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+h1 {
+  text-align: left;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+div {
+  margin-right: 20px;
+}
+
+.grupoVermelho {
+  display: flex;
+  justify-content: left;
+  color: red;
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 86%;
+}
+
+.grupoVerde {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+  color: green;
+  font-size: 20px;
+  width: 86%;
+}
+
+.grupoAzul {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+  color: blue;
+  font-size: 20px;
+  width: 86%;
+}
+
+.inputEscalaGreen {
+  padding-left: 30px;
+}
+
+.inputEscalaBlue {
+  padding-left: 40px;
+}
+
+#saidaCor {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+
+.recebeCor {
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  width: 81%;
+}
