@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trabalho Pratico 1</title>
-</head>
+<h1>Trabalho Pratico </h1>
 
 <body>
   <h1>Problemática</h1>
